@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  margin: 3rem;
+  border: 2px solid #e59f6e;
+  box-shadow: 4px 4px 4px #e8bb9a;
+  border-radius: 10px;
+  width: 600px;
+  height: auto;
+}
+.main-container .form-heading {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #e59f6e;
+  margin: 30px 0;
+}
+.main-container .form-some-text {
+  text-align: center;
+}
+.main-container .form-some-text p {
+  display: inline-block;
+  background-color: #e8b28c;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.form-container {
+  background-color: #e8b28c;
+  margin: 10px 2.5rem;
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+.form-container .form-check {
+  margin: 0 30px;
+}
+.form-container label {
+  color: #ffffff;
+  margin: 10px 0;
+  font-size: 18px;
+}
+.form-container input {
+  padding: 10px 10px;
+}
+.form-container .myBtn {
+  padding: 6px 22px;
+  font-size: 18px;
+  margin-left: 3.4rem;
+}
+
+.form-check small {
+  color: tomato;
+  visibility: hidden;
+}
+
+.form-check.error small {
+  visibility: visible;
+}
+
+.form-check input:focus {
+  outline: 0;
+  border: #777;
+}
+
+.form-check.error input {
+  border-color: tomato;
+  border: 3px solid tomato;
+}
+
+.form-check.success input {
+  border: 4px solid lightgreen;
+}/*# sourceMappingURL=style.css.map */

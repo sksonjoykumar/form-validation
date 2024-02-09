@@ -1,0 +1,15 @@
+// background color
+$myBgColor: lightblue;
+$myBgColor1: #f5decd;
+$mySuccess: tomato;
+$myPrimary: lightgreen;
+$myBgColor4: black;
+$myBgColor5: #e8b28c;
+
+// Heading Style
+@mixin heading-style {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #e59f6e;
+}
